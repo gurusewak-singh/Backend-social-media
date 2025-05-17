@@ -1,7 +1,7 @@
 const cors = require('cors');
 
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://frontend-social-media-one.vercel.app",
   credentials: true,
 };
 
