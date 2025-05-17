@@ -22,7 +22,7 @@ const httpServer = createServer(app); // Create HTTP server from Express app
 // Initialize Socket.IO
 const io = new Server(httpServer, {
   cors: {
-    origin: "http://localhost:5173", // Your frontend URL
+    origin: "https://frontend-social-media-hsstw3es4-gurusewak-singhs-projects.vercel.app/", // Your frontend URL
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   }
